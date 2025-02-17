@@ -26,7 +26,7 @@ def formata_num(valor, prefixo = ''):
 
 @st.cache_data(persist='disk')
 def load_and_preprocess_data():
-    caminho_para_zip = r'F:\Scripts\GAP_Analysis\GAP_Analysis.zip'  # Ajuste para o caminho do seu arquivo zip
+    caminho_para_zip = r'GAP_Analysis.zip'  # Ajuste para o caminho do seu arquivo zip
     nome_do_csv = 'GAP Analysis.csv'  # Nome do CSV dentro do zip
 
     # Abrir o arquivo zip e ler o CSV
